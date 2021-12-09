@@ -5,8 +5,9 @@ btn.addEventListener('click', bodyColor);
 function bodyColor() {
   const body = document.querySelector('body');
   const paragraph = document.querySelector('.color');
-  body.style.backgroundColor = getRandomHexColor();
-  paragraph.textContent = getRandomHexColor();
+  const color = getRandomHexColor();
+  body.style.backgroundColor = color;
+  paragraph.textContent = color;
 }
 
 

@@ -1,9 +1,8 @@
 const refsCounter = document.querySelector("#value");
 const refsCounterInner = document.querySelector("#value").innerHTML;
-let counterValue = Number(refsCounterInner);
+let counterValue = 0;
 const buttonDecrement = document.querySelector('button[data-action="decrement"]');
 const buttonIncrement = document.querySelector('button[data-action="increment"]');
-
 
 
 
